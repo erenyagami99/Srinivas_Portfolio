@@ -97,7 +97,7 @@ const Navbar = () => {
             >
               Education
             </MobileLink>
-            <GitHubButton
+            {/* <GitHubButton
               style={{
                 padding: "10px 16px",
                 background: `${theme.primary}`,
@@ -108,7 +108,7 @@ const Navbar = () => {
               target="_blank"
             >
               Github Profile
-            </GitHubButton>
+            </GitHubButton> */}
           </MobileMenu>
         )}
       </NavbarContainer>
