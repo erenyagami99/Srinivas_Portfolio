@@ -193,7 +193,7 @@ export const education = [
     // img: "https://methodistschool-dankuni.webs.com/NEW%20BADGE.jpg",
     school: "SFS High School",
     date: "April 2013 - April 2014",
-    grade: "8.8 GPA",
+    grade: "8.8 CGPA",
     // desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
     degree: "SSC(X)",
   },
