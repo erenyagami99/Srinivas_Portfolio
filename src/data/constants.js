@@ -206,7 +206,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "This web application is kind of clone to Netflix web application where user authentication is implemented and trailers of the movies can be played.",
-    image: "https://www.linkpicture.com/q/netflix-min.png",
+    image: "/images/netflix-min.png",
     tags: ["React Js", "Redux", "Axios", "JavaScript", "FireBase"],
     category: "web app",
     // https://srinivas-website.netlify.app/,
@@ -218,7 +218,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "This web application is made to try the different effects of css animations and lottie animations.",
-    image: "https://www.linkpicture.com/q/sample-site.png",
+    image: "/images/sample-site.png",
     tags: ["React Js", "JavaScript", "CSS"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Trackify",
@@ -230,7 +230,7 @@ export const projects = [
     date: "Sep 2023 - Sep 2023",
     description:
       "Developed a MEAN Stack web application that allows admins to create stages which includes task and assign them to the employees. The stages are dynamic admin can create a new stage update and delete it, same goest with the tasks. Drag and drop is implemented in this project so that tasks can be moved from one stage to other dynamically. NgRx store is implemented to manage user data.",
-    image: "https://www.linkpicture.com/q/task-board.png",
+    image: "/images/task-board.png",
     tags: ["Angular", "MongoDb", "Node Js", "Express Js", "NgRx", "Postman"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Podstream",
