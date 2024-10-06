@@ -2,16 +2,16 @@ export const Bio = {
   name: "Srinivas Relangi",
   roles: [
     "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
+    "SoftwareDeveloper",
+    "Web Developer",
     "Programmer",
   ],
   description:
     "As a highly motivated developer, I possess extensive hands-on experience in developing web applications using JavaScript frameworks like Angular and Node JS, along with the powerful React JS library. I am committed to continuously enhancing my skills and contribute to the evolving landscape of web technologies.",
-  github: "https://github.com/rishavchanda",
+  github: "https://github.com/erenyagami99",
   resume:
-    "https://drive.google.com/file/d/1ZvfvFkGuJiFHNo7hrRJ-WnNjpQ4tUR-b/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    "https://drive.google.com/file/d/1W9Iw3rEKIkAu3IiC7Y9i3UpxwiSGTGzf/view?usp=drive_link",
+  linkedin: "https://www.linkedin.com/in/srinivas-relangi-395256157/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
   facebook: "https://www.facebook.com/rishav.chanda.165/",
@@ -90,8 +90,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+        image: "/images/git-seeklogo.svg",
       },
       {
         name: "GitHub",
@@ -110,8 +109,7 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+        image: "/images/postman-seeklogo.svg",
       },
     ],
   },
@@ -120,6 +118,26 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    // img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
+    role: "Full Stack Developer",
+    company: "Freelancer",
+    date: "September 2023 - Present",
+    desc: " Developed user-friendly, responsive frontend websites tailored to client specifications, incorporating SEO optimization that improved site traffic by 20%. Implemented Redux flow to efficiently manage application state.",
+    skills: [
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "Mongo DB",
+      "Restful API's",
+      "JavaScript",
+      "Postman",
+      "UI",
+      "On Page SEO",
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
+  {
+    id: 1,
     // img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
     role: "Full Stack Developer",
     company: "Megavrse",
@@ -139,7 +157,7 @@ export const experiences = [
     // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
-    id: 1,
+    id: 2,
     // img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
     role: "Software Developer",
     company: "LeewayHertz Technologies",
@@ -159,7 +177,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     // img: "https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=1692835200&v=beta&t=FjOWcUVVNzqFbTmmp0iXQkv5keBQC5lxIQ7K6rmMSMQ",
     role: "Paid Intern",
     company: "Capgemini",
@@ -225,7 +243,7 @@ export const projects = [
     webapp: "https://srinivas-website.netlify.app/",
   },
   {
-    id: 0,
+    id: 2,
     title: "Task Board",
     date: "Sep 2023 - Sep 2023",
     description:
@@ -235,6 +253,77 @@ export const projects = [
     category: "web app",
     // github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://task-board-srinivas.netlify.app/",
+    // member: [
+    //   {
+    //     name: "Rishav Chanda",
+    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    //     github: "https://github.com/rishavchanda/",
+    //   },
+    //   {
+    //     name: "Upasana Chaudhuri",
+    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+    //     github: "https://github.com/upasana0710",
+    //   },
+    // ],
+  },
+  {
+    id: 3,
+    title: "Twitter",
+    date: "Aug 2024 - Aug 2024",
+    description:
+      "This project is a Twitter (X) clone built with the MERN stack, featuring user authentication, real-time feed updates, post creation (including image uploads), and interaction through likes, comments, and retweets. It also includes user profiles, a recommended users filter, search functionality, and a responsive design for a seamless experience across devices.",
+    image: "/images/twitter-ss.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Tailwind",
+      "Postman",
+      "Tanstack",
+      "React-query",
+      "JWT",
+      "Cloudinary",
+    ],
+    category: "web app",
+    // github: "https://github.com/rishavchanda/Podstream",
+    webapp: "https://mern-twitter-f0se.onrender.com/",
+    // member: [
+    //   {
+    //     name: "Rishav Chanda",
+    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    //     github: "https://github.com/rishavchanda/",
+    //   },
+    //   {
+    //     name: "Upasana Chaudhuri",
+    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+    //     github: "https://github.com/upasana0710",
+    //   },
+    // ],
+  },
+  {
+    id: 4,
+    title: "Static- Homepage",
+    date: "Sep 2024 - Sep 2023",
+    description:
+      "This project is a static web application built using React.js, designed with a fully responsive layout to ensure optimal viewing across all devices. It features clean, modern design principles with smooth navigation and dynamic content rendering. React's component-based architecture allows for reusable UI elements, ensuring fast load times and efficient performance. The application adapts seamlessly to different screen sizes, providing users with an intuitive and consistent experience, whether on mobile, tablet, or desktop",
+    image: "/images/static-site-ss.png",
+    tags: [
+      "React Js",
+      "Tailwind",
+      "Styled-Components",
+      "HTML/CSS",
+      "Responsive",
+      "User-Friendlyd",
+      "React Components",
+    ],
+    category: "web app",
+    // github: "https://github.com/rishavchanda/Podstream",
+    webapp: "https://front-end-template-766.netlify.app/",
     // member: [
     //   {
     //     name: "Rishav Chanda",
